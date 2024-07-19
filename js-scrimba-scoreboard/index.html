@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Ultimate Scoreboard 2000</title>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <h2 id="homescore">0</h2>
+                  <div class="homebuttons">
+                    <button id="plusonehome" onclick="plusone()">+1</button>
+                    <button id="plustwohome" onclick="plustwo()">+2</button>
+                    <button id="plusthreehome" onclick="plusthree()">+3</button>
+                    <button id="plussixhome" onclick="plussix()">+6</button>
+                  </div>
+            </div>
+            <div>
+                <h3>GUEST</h3>
+                <h2 id="guestscore">0</h2>
+                <div class="guestbuttons">
+                    <button id="plusoneguest" onclick="plusoneguest()">+1</button>
+                    <button id="plustwoguest" onclick="plustwoguest()">+2</button>
+                    <button id="plusthreeguest" onclick="plusthreeguest()">+3</button>
+                    <button id="plussixguest" onclick="plussixguest()">+6</button>
+                </div>
+            </div>
+        </div>
+        <div id="quarters">
+            <p>Quarter:</p>
+            <input type="radio" id="qtr1" value="1st Qtr" name="quarter" checked="checked">
+                <label for="qtr1">1</label>
+            <input type="radio" id="qtr2" value="qtr2" name="quarter">
+                <label for="qtr2">2</label>
+            <input type="radio" id="qtr3" value="3rd Qtr" name="quarter">
+                <label for="qtr3">3</label>
+            <input type="radio" id="qtr4" value="4thQtr" name="quarter">
+                <label for="qtr4">4</label>
+        </div>
+        <button id="endgame" onclick="displaywinner()">END GAME</button>
+        <p id="winner"></p>
+        <button id="newgame" onclick="resetboard()">NEW GAME</button>
+        <script src="index.js"></script>
+    </body>
+</html>

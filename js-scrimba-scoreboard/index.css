@@ -1,0 +1,107 @@
+body {
+    margin: 30;
+    text-align: center;
+    background-color: navy
+}
+
+
+h2 {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 40px;
+    color: wheat;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#quarters {
+    display: inline-block;
+    justify-content: space-around;
+    color: white;
+    margin-bottom: 20px;
+}
+
+input[type="radio"]{
+  margin: 0 3px 0 25px;
+}
+
+#homescore {
+    display: block;
+    margin: auto;
+}
+
+.homebuttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.guestbuttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+#plusonehome {
+    border: 1px solid black
+}
+
+#plustwohome {
+    border: 1px solid black
+}
+
+#plusthreehome {
+    border: 1px solid black
+}
+
+#plusoneguest {
+    border: 1px solid black
+}
+
+#plustwogues{
+    border: 1px solid black
+}
+
+#plusthreegues {
+    border: 1px solid black
+}
+
+
+#endgame {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#newgame {
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+#winner {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    
+}
+
+
+#winner {
+    color: white;
+}
